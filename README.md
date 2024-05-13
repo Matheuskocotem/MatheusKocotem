@@ -1,4 +1,4 @@
-## Oiii eu sou a Matheus kocotem, estudante de programação e tecnologia!
+## Oiii eu sou Matheus kocotem, estudante de programação e tecnologia!
 
           
 
