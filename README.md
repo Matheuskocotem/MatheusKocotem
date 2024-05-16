@@ -2,7 +2,7 @@ Estudante de programação e tecnologia!
 
           
 
-<img height="180cm" src="https://github-readme-stats.vercel.app/api?username=MatheusKocotem&theme=radical">
+<img height="180cm" src="https://github-readme-stats.vercel.app/api?username=MatheusKocotem&theme=dark">
           
 
 <div style="display: inline_block"><br>
