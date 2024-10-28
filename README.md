@@ -5,7 +5,7 @@
 
 
 ## Meu nome é Matheus Kocotem
-(📚 Java | ☁️ AWS | ⚛️ React JS | 🔷 Vue.js | 🖥️ Laravel | 🔧 C#) 🚀
+( Java | AWS | React JS | Vue.js | Laravel | C#) 🚀
 - 👨‍💻 Desenvolvedor Full Stack 
 - 🎓 Analista de Sistemas
 - 🌐 Apaixonado por desenvolvimento web e inovação tecnológica
