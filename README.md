@@ -8,8 +8,6 @@
 ( Java | AWS | React JS | Vue.js | Laravel | C#) 🚀
 - 👨‍💻 Desenvolvedor Full Stack 
 - 🎓 Analista de Sistemas
-- 🌐 Apaixonado por desenvolvimento web e inovação tecnológica
-- 💡 Gosto de resolver problemas
 
 <div align="left">
   
