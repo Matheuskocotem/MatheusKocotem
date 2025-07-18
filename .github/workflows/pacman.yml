@@ -1,0 +1,36 @@
+name: Generate Pacman Contribution Graph
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # roda todo dia à meia-noite
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.x
+
+      - name: Install dependencies
+        run: pip install matplotlib requests
+
+      - name: Run Pacman Graph Generator
+        run: |
+          mkdir -p output
+          curl -s https://raw.githubusercontent.com/yoshi389111/github-pacman-contribution/main/pacman.py -o pacman.py
+          python pacman.py Matheuskocotem --dark > output/pacman-contribution-graph-dark.svg
+          python pacman.py Matheuskocotem > output/pacman-contribution-graph.svg
+
+      - name: Commit and Push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add output/
+          git commit -m "update pacman contribution graph" || echo "No changes"
+          git push
