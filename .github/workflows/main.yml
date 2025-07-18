@@ -1,2 +1,28 @@
 name: Generate Datas
 
+on:
+  schedule:
+    - cron: "0 0 * * *" 
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        
+      - name: Generate data
+        run: |
+          echo "Generating data..."
+          date > data.txt
+          
+      - name: Commit and Push
+        run: |
+          git config user.name "Matheuskocotem"
+          git config user.email "kocotemmatheus@gmail.com"
+          git add .
+          git commit -m "update data" || echo "No changes"
+          git push
