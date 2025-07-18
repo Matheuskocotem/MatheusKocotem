@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
+  <rect width="800" height="200" fill="#0d1117"/>
+  <text x="400" y="100" text-anchor="middle" fill="#58a6ff" font-family="Arial, sans-serif" font-size="24">
+    🐍 Snake Animation Loading...
+  </text>
+  <text x="400" y="130" text-anchor="middle" fill="#7c3aed" font-family="Arial, sans-serif" font-size="16">
+    Run the workflow to generate the animation
+  </text>
+</svg>
