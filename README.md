@@ -25,13 +25,6 @@
 ###
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=Matheuskocotem&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
-  <img src="https://github-profile-trophy.vercel.app?username=Matheuskocotem&theme=dracula&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" height="150" alt="trophy graph"  />
-</div>
-
-###
-
-<div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Matheuskocotem&show_icons=true&theme=dracula&hide_border=false&border_radius=5" height="150" alt="stats graph" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Matheuskocotem&layout=compact&theme=dracula&hide_border=false&border_radius=5" height="150" alt="languages graph" />
 </div>
