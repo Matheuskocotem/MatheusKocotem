@@ -39,6 +39,15 @@
 
 ###
 
-<img src="https://raw.githubusercontent.com/Matheuskocotem/Matheuskocotem/output/snake.svg" alt="Snake animation" />
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Matheuskocotem&show_icons=true&theme=dracula&hide_border=false&border_radius=5" height="150" alt="stats graph" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Matheuskocotem&layout=compact&theme=dracula&hide_border=false&border_radius=5" height="150" alt="languages graph" />
+</div>
+
+###
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Matheuskocotem&theme=dracula&hide_border=false&border_radius=5" alt="activity graph" />
+</div>
 
 ###
