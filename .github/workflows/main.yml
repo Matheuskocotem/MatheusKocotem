@@ -1,28 +1,45 @@
 name: Generate Datas
 
 on:
-  schedule:
-    - cron: "0 0 * * *" 
-  workflow_dispatch:
+  # Desativando o schedule para economizar minutos
+  # schedule:
+  #   - cron: "0 0 * * *"
+  workflow_dispatch:  # Permite execução manual
   push:
     branches: [ main ]
+    paths:
+      - '!data.txt'  # Evita loop infinito ignorando alterações no data.txt
 
 jobs:
   build:
+    # Usando o runner mais leve possível
     runs-on: ubuntu-latest
+    # Limite de tempo de execução para 2 minutos (padrão é 6h)
+    timeout-minutes: 2
+    
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-        
+        with:
+          # Baixa apenas o necessário
+          fetch-depth: 1
+          
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'  # Versão mais estável
+          
       - name: Generate data
         run: |
-          echo "Generating data..."
+          echo "Gerando dados..."
           date > data.txt
           
       - name: Commit and Push
+        if: github.ref == 'refs/heads/main'  # Só faz push se for na branch main
         run: |
           git config user.name "Matheuskocotem"
           git config user.email "kocotemmatheus@gmail.com"
-          git add .
-          git commit -m "update data" || echo "No changes"
+          git config --global http.postBuffer 524288000
+          git add data.txt
+          git diff-index --quiet HEAD || git commit -m "update data"
           git push
