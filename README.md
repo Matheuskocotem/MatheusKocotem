@@ -17,7 +17,7 @@
 
 Engenheiro de software com 3 anos de experiência em **Java** e **Python**, especializado em **sistemas distribuídos** de médio e grande porte. Construo com qualidade desde o início: combino desenvolvimento backend sólido em **Spring** com forte **automação de testes**, resultando em entregas robustas, escaláveis e com baixa taxa de regressão.
 
-- 🔭 Atualmente na **EloGroup** trabalhando em sistemas enterprise (ONS — Operador Nacional do Sistema Elétrico)
+- 🔭 Atualmente na **EloGroup** trabalhando em sistemas enterprise (ONS Operador Nacional do Sistema Elétrico)
 - ⚙️ Experiência com mensageria (**Kafka, RabbitMQ**), containers (**Docker, Kubernetes**) e cloud (**AWS, GCP**)
 - 🧪 Foco em qualidade, CI/CD e ambientes ágeis (**SAFe**)
 - 🎓 Cursando **Engenharia de Software** (UniGuairacá) e **Sistemas para Internet** (UTFPR)
