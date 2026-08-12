@@ -59,15 +59,6 @@ Engenheiro de software com 3 anos de experiência em **Java** e **Python**, espe
 ### 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Matheuskocotem&show_icons=true&theme=dracula&hide_border=true&count_private=true" height="165" alt="stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Matheuskocotem&layout=compact&theme=dracula&hide_border=true&langs_count=8" height="165" alt="top langs"/>
-</div>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=Matheuskocotem&theme=dracula&hide_border=true" height="165" alt="streak"/>
-</div>
-
-<div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Matheuskocotem&theme=dracula&hide_border=true&area=true" alt="activity graph"/>
 </div>
 
