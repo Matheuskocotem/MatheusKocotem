@@ -67,10 +67,6 @@ Engenheiro de software com 3 anos de experiência em **Java** e **Python**, espe
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Matheuskocotem&theme=dracula&hide_border=true" height="165" alt="streak"/>
 </div>
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Matheuskocotem&theme=dracula&hide_border=true&area=true" alt="activity graph"/>
-</div>
-
 ---
 
 <p align="center">
